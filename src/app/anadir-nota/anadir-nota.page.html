@@ -5,5 +5,39 @@
 </ion-header>
 
 <ion-content>
+  <ion-item>
+    <ion-label position="floating">Nombre de la nota</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+  <ion-list>
+    <ion-item>
+      <ion-label>Categoria</ion-label>
+          <ion-select placeholder="Select One">
+            <ion-select-option value="f">Female</ion-select-option>
+            <ion-select-option value="m">Male</ion-select-option>
+          </ion-select>
+    </ion-item>
+  </ion-list>
+  <ion-textarea>
+    <ion-label class="ion-padding">Nota</ion-label>
 
+  </ion-textarea>
+  
+
+  <ion-item>
+    <ion-label position="floating">Fecha</ion-label>
+    <ion-datetime displayFormat="D MMM YYYY H:mm" min="1997" max="2010" value="2005-06-17T11:06Z"></ion-datetime>
+  </ion-item>
+  
+  <ion-item>
+    <ion-label>Recordar </ion-label>
+    <ion-toggle checked>
+    
+    </ion-toggle>
+  </ion-item>
+  
+    <ion-button>volver</ion-button>
+  <ion-button >guardar</ion-button>
+  
+  
 </ion-content>
