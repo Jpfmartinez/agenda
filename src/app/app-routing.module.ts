@@ -14,6 +14,10 @@ const routes: Routes = [
     path: 'modal-page',
     loadChildren: () => import('./modal-page/modal-page.module').then( m => m.ModalPagePageModule)
   },
+  {
+    path: 'anadir-nota',
+    loadChildren: () => import('./anadir-nota/anadir-nota.module').then( m => m.AnadirNotaPageModule)
+  },
 
 ];
 
